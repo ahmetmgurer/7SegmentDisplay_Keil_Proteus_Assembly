@@ -1,0 +1,127 @@
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                    05/04/2020  01:18:33  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22.2.0, INVOKED BY:
+C:\KEIL_V5\C51\BIN\BL51.EXE .\Objects\kod3.obj TO .\Objects\1 PRINT (.\Listings\1.m51) RAMSIZE (256)
+
+
+INPUT MODULES INCLUDED:
+  .\Objects\kod3.obj (KOD3)
+
+
+LINK MAP OF MODULE:  .\Objects\1 (KOD3)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     00B6H     ABSOLUTE     
+
+
+
+SYMBOL TABLE OF MODULE:  .\Objects\1 (KOD3)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        KOD3
+  C:0047H         SYMBOL        ACIK
+  C:0030H         SYMBOL        BASLA
+  C:0099H         SYMBOL        BIR_SANIYE
+  C:0036H         SYMBOL        BUTTON_KONTROL
+  D:00A8H         SYMBOL        IE
+  C:0083H         SYMBOL        KAPAT
+  C:000BH         SYMBOL        KESME
+  C:0091H         SYMBOL        KESMEFONK
+  D:0080H         SYMBOL        P0
+  D:0090H         SYMBOL        P1
+  D:00A0H         SYMBOL        P2
+  C:009DH         SYMBOL        P_SIFIRLA
+  D:008CH         SYMBOL        TH0
+  D:008AH         SYMBOL        TL0
+  D:0089H         SYMBOL        TMOD
+  B:0088H.4       SYMBOL        TR0
+  C:0000H         LINE#         2
+  C:000BH         LINE#         4
+  C:0030H         LINE#         7
+  C:0033H         LINE#         8
+  C:0036H         LINE#         11
+  C:0038H         LINE#         12
+  C:003BH         LINE#         13
+  C:003EH         LINE#         14
+  C:0040H         LINE#         15
+  C:0042H         LINE#         16
+  C:0045H         LINE#         17
+  C:0047H         LINE#         21
+  C:0049H         LINE#         22
+  C:004CH         LINE#         24
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  05/04/2020  01:18:33  PAGE 2
+
+
+  C:004EH         LINE#         25
+  C:0050H         LINE#         26
+  C:0052H         LINE#         28
+  C:0054H         LINE#         30
+  C:0056H         LINE#         31
+  C:0058H         LINE#         32
+  C:005AH         LINE#         33
+  C:005CH         LINE#         35
+  C:005EH         LINE#         37
+  C:0060H         LINE#         38
+  C:0062H         LINE#         39
+  C:0064H         LINE#         40
+  C:0066H         LINE#         41
+  C:0068H         LINE#         42
+  C:006AH         LINE#         43
+  C:006CH         LINE#         45
+  C:006EH         LINE#         47
+  C:0070H         LINE#         48
+  C:0072H         LINE#         49
+  C:0074H         LINE#         50
+  C:0076H         LINE#         51
+  C:0078H         LINE#         52
+  C:007AH         LINE#         54
+  C:007CH         LINE#         56
+  C:007FH         LINE#         57
+  C:0081H         LINE#         58
+  C:0083H         LINE#         62
+  C:0085H         LINE#         63
+  C:0088H         LINE#         65
+  C:008AH         LINE#         68
+  C:008DH         LINE#         69
+  C:008FH         LINE#         70
+  C:0091H         LINE#         73
+  C:0092H         LINE#         75
+  C:0095H         LINE#         76
+  C:0098H         LINE#         77
+  C:0099H         LINE#         80
+  C:009AH         LINE#         81
+  C:009CH         LINE#         82
+  C:009DH         LINE#         85
+  C:009FH         LINE#         86
+  C:00A1H         LINE#         87
+  C:00A3H         LINE#         88
+  C:00A5H         LINE#         89
+  C:00A7H         LINE#         90
+  C:00A9H         LINE#         91
+  C:00ABH         LINE#         92
+  C:00ADH         LINE#         93
+  C:00AFH         LINE#         94
+  C:00B1H         LINE#         95
+  C:00B3H         LINE#         96
+  C:00B5H         LINE#         97
+  -------         ENDMOD        KOD3
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 008BH BYTE ( 6%) *
+******************************************************************************
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  05/04/2020  01:18:33  PAGE 3
+
+
+
+Program Size: data=8.0 xdata=0 code=182
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)
